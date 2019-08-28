@@ -121,7 +121,11 @@ a{
     display: inline-block;
     font-weight: normal;
     border: 4px solid #FFC533;
+    text-decoration: none;
 
+}
+.btn2:hover{
+    color: black;
 }
 
 .brown{
