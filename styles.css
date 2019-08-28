@@ -1,0 +1,135 @@
+body, html{
+    height: 100vh;
+    margin: 0%;
+    font-family: 'lato';
+}
+
+.header{
+    padding-top: 0%;
+    background-image: url(/images/pentool.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar ul{
+    display: inline-flex;
+    margin: 30px 0px;
+    margin-right: 0px;
+    text-decoration: none;
+    padding-left: 0px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 10px 10px;
+    color: #707070;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    display: inline-flex;
+}
+
+.navbar li{
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.hover:hover{
+    color: #F7931A;
+    text-decoration: underline;
+}
+
+.active{
+    color: #F7931A !important;
+}
+
+.navbar img{
+    margin-left: 50px;
+    padding-top: 0px;
+}
+
+img{
+    margin-right: 10%;
+    padding-right: 0px;
+    float: left;
+    margin-left: 80px; 
+    height: 100px; 
+    width: 110px;  
+}
+li .submit{
+    border-radius: 20px;
+    background-color: #F7931A;
+    border: none;
+    margin-left: 246px; 
+    font-size: 18px;
+    margin-right: 50px;
+    padding: 5px 10px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;;
+    order: 2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero .green{
+    float: left;
+    width: 50%;
+    order: 1;
+}
+.green h1{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 60px;
+    color: #707070;
+    font-weight: bold;
+}
+.green .btn{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFC533;
+    width: 350px;
+    height: 60px;
+    font-size: 25px;
+    margin-top: 40px; 
+    color: #707070;
+    display: inline-block;
+    
+
+}
+.green .btn2{
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    height: 60px;
+    font-size: 25px;
+    padding-top: 8px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: #707070;
+    display: inline-block;
+    font-weight: normal;
+    border: 4px solid #FFC533;
+
+}
+
+.brown{
+    float: right;
+    width: 50%;
+    order: 1;
+    background-color: brown;
+}
+
+
+
