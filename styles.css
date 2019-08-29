@@ -20,6 +20,7 @@ body, html{
     margin: 30px 0px;
     margin-right: 0px;
     text-decoration: none;
+    font-weight: bold;
     padding-left: 0px;
 }
 .navbar ul li{
@@ -35,6 +36,7 @@ body, html{
 .navbar li{
     font-size: 18px;
     padding-right: 30px;
+    font-weight: bold;
 }
 
 .hover:hover{
@@ -52,12 +54,12 @@ body, html{
 }
 
 img{
-    margin-right: 10%;
+    margin-right: 5%;
     padding-right: 0px;
     float: left;
     margin-left: 80px; 
-    height: 100px; 
-    width: 110px;  
+    height: 95px; 
+    width: 130px;  
 }
 li .submit{
     border-radius: 20px;
@@ -96,31 +98,30 @@ a{
     font-weight: bold;
 }
 .green .btn{
-    margin: 0 auto;
-    text-align: center;
     background-color: #FFC533;
-    width: 350px;
-    height: 60px;
+    width: 320px;
+    height: 53px;
     font-size: 25px;
-    margin-top: 40px; 
+    margin-top: 0px; 
+    padding-top: 5px;
     color: #707070;
     display: inline-block;
     
 
 }
 .green .btn2{
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
-    width: 350px;
-    height: 60px;
+    width: 320px;
+    height: 53px;
     font-size: 25px;
-    padding-top: 8px;
+    padding-top: 2px;
     margin-top: 20px;
     margin-bottom:20px;
     color: #707070;
     display: inline-block;
     font-weight: normal;
-    border: 4px solid #FFC533;
+    border: 2px solid #FFC533;
     text-decoration: none;
 
 }
@@ -131,9 +132,14 @@ a{
 .brown{
     float: right;
     width: 50%;
-    order: 1;
-    background-color: brown;
+    height: 80%;
 }
 
-
-
+.brown img{
+    width: 90%;
+    height: 105%;
+    float: left;
+    margin-top: -28px;
+    margin-left: -46px;
+}
+/*header and banner ends here*/
